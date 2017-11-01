@@ -6,7 +6,7 @@ class user_index extends CI_Controller
     public function index() {
 
         $this->load->view('GUI/index');
-dd
+
     }
 
     public function post ( $record_id ) {
